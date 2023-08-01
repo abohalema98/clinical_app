@@ -5,14 +5,16 @@ Auth ( Register - Login )
 <br/>
 CRUD (Add - Delete - Update )
 <br/>
-Roles (Doctor - Docotor assistant) ⌚......! :loading 
-<br/>
+Roles (Doctor - Docotor assistant) ⌚loading ......! 
 
 <hr style:"color⚫">
-<br/>
 <h3>tech stack:</h3>
 Apollo Server
+<br/>
 GraphQl
+<br/>
 MySQL
+<br/>
 Prisma
+<br/>
 Node JS
