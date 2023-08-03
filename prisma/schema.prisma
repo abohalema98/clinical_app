@@ -1,4 +1,3 @@
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -8,13 +7,18 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+// model User {
+//   id       Int     @id @default(autoincrement())
+//   name     String? @db.VarChar(100)
+//   password String  @db.VarChar(255)
+//   email    String  @unique
+//   role     String? @db.VarChar(100)
+// }
 
-model User {
-  id      Int    @id @default(autoincrement())
-  name   String? @db.VarChar(100)
-  password String @db.VarChar(255)
-  email String @unique
-  role String? @db.VarChar(50)
+model Clinicaldata {
+  id   Int     @id @default(autoincrement())
+  name String? @db.VarChar(100)
+  status	String? @db.VarChar(50)
+  files String? @db.VarChar(50)
+  created_at DateTime?
 }
-
-
